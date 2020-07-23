@@ -1690,5 +1690,322 @@ console.log('Repeated word "o" in  "oll Vowels JSResourceSo.com" =>> ',char_coun
 
 
 
+// ---------------------------------- 39 - 67  --------------------------------- >
+
+// Chapter 38 to 42
+
+// Task-1
+// var a;
+// var b;
+// a = prompt("Enter value for base")
+// b= prompt("Enter value for power")
+// power(a,b)
+// function power(a,b){
+//     var c = a**b;
+//     alert(c)
+// }
+
+//===========================================================================
+// Task-2
+// var year = prompt("Enter year");
+// a = leapyear(year);
+
+// if (a ){
+//     alert(year + " is Leap year" )
+// }
+// else{
+//     alert(year + " is not Leap year")
+// }
+
+
+// function leapyear(year)
+// {
+// return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+// }
+
+//===========================================================================
+
+// Task-3
+// area = S(S − a)(S − b)(S − c)
+// where, S = ( a + b + c ) / 2
+// var a = parseInt (prompt("Enter value for triangle side1"));
+// var b = parseInt (prompt("Enter value for triangle side2"));
+// var c = parseInt (prompt("Enter value for triangle side3"));
+
+
+
+
+// function sfun(a,b,c){
+    
+//     return (a+b+c)/2;
+// }
+
+// function area(a,b,c,s){
+//          return Math.sqrt(s* (s - a) * (s - b) * (s - c))}
+
+
+// var s = sfun(a,b,c);
+// var area = area(a,b,c,s);
+
+// alert("area of triangle is: " + area);
+
+
+//===========================================================================
+
+// Task-4
+// var sub1 = parseInt(prompt("Enter marks of subject1."));
+// var sub2 = parseInt(prompt("Enter marks of subject2."));
+// var sub3 = parseInt(prompt("Enter marks of subject3."));
+
+// mainfun(sub1,sub2,sub3);
+
+// function mainfun(sub1,sub2,sub3){
+//     alert("Average is : " + avg(sub1,sub2,sub3));
+//     alert("Percentage is : " + percent(sub1,sub2,sub3));
+    
+// }
+
+// function avg(sub1,sub2,sub3){
+//     return (sub1+sub2+sub3)/3
+// }
+
+// function percent(sub1,sub2,sub3){
+//     return ((sub1+sub2+sub3)*100)/300;
+   
+// }
+
+
+//===========================================================================
+
+
+//Task-5
+
+    //  var a = prompt("Enter String");
+    //  var b = prompt("Enter char you want to check");
+
+//   alert(a.length);
+//  
+//function indexof(a,b){
+//for(var i = 0 ; i <= a.length;i++){
+ //    if(a[i] === b){
+   //      alert("Index position of: "+b +" is " + i);
+     //    break;
+   //  }
+    // if(i === a.length){
+        
+  //alert("Not Found");
+ 
+    // }
+ // }
+//}
+
+//===========================================================================
+
+
+//Task-6
+// var s = prompt("Enter Sentence");
+// function disemvowel(str) {
+//   var vowels = ['a', 'e', 'i', 'o', 'u'];
+  
+//   return str.split('').filter(function(el) {
+//     return vowels.indexOf(el.toLowerCase()) == -1;
+//   }).join('');
+// }
+
+// alert(disemvowel(s));
+    
+//===========================================================================
+
+//Task-7
+
+
+
+
+
+
+
+
+
+//===========================================================================
+
+//Task-8
+
+// var d = parseInt(prompt("Enter distance between 2 cities."));
+
+// meter(d)
+// feet(d)
+// inches(d)
+// cm(d)
+
+// function meter(km){
+//   alert ("Meters are : "+ km*1000);
+// }
+
+// function feet(km){
+//   alert("Feets are : "+km*3280.84);
+  
+// }
+
+// function inches(km){
+//   alert("Inches are : "+km*39370.1);
+// }
+
+// function cm(km){
+//   alert("Centimeter are : "+km * 100000);
+// }
+
+
+
+
+//===========================================================================
+
+//Task-9
+
+// var w = parseInt(prompt("Enter worked hours: "));
+
+// if(w>40){
+// t = (w - 40)*12;
+// alert("Over time Rs: " + t)
+// }
+
+
+//===========================================================================
+
+//Task-10
+
+// var a = parseInt(prompt("Enter amount: "));
+// var ca = 0;
+// var cb = 0;
+// var cc = 0;
+
+//    while(a >= 100){
+//      a = a-100;
+//      ca++;
+//    }
+
+//    if (a < 100 && a >=50 ){
+//      while(a >=50) {
+//         a = a-50;
+//       cb++;
+//      }
+//   }
+
+//   if (a <50){
+//     while(a < 50){
+//        a = a-10;
+//         cc++;
+//        if ( a == 0){
+//          break;
+//        } 
+//      }
+//     }
+
+// document.writeln("You will have "+ ca +" hundreds notes, "+ cb +" fifty notes, "+ cc + " ten notes");
+
+
+
+//===========================================================================
+//===========================================================================
+//===========================================================================
+//===========================================================================
+
+
+// Chapter 43 - 48
+
+// Task-1
+
+// function welcome()
+// {
+//   alert("Welcome to this website.")
+// }
+
+
+//===========================================================================
+
+//Task-2
+
+//  function welcome()
+//  {
+//    alert("Thanks for purchasing this mobile phone.")
+//  }
+
+//=================================================================================
+
+
+// Task-3
+
+// function deleted(e){
+  
+//   e.parentNode.parentNode.remove();
+// }
+
+
+
+//=================================================================================
+
+// Task - 4 done in Index.html page.row
+
+
+
+//=================================================================================
+
+// Task -5 
+
+// function increment(){
+//   var count =document.getElementById('counter');
+//   count.value =+ count.value+1
+//  }
+
+//  function decrement(){
+//   var count =document.getElementById('counter');
+//   count.value = count.value-1;
+//  }
+
+
+
+////////////////////////////////////// 
+
+// Chapter 49 - 52
+
+//task -1 
+
+// function signup(){
+
+//   var username = document.getElementById('name');
+//   var user = username.value;
+//   var email = document.getElementById('email');
+//   var em = email.value;
+//   var pass = document.getElementById('password');
+//   var pas = pass.value;
+
+//   document.writeln("Username :" + user  );
+//   document.write("<br>")
+//   document.writeln(" email is : "+ em );
+//   document.write("<br>")
+//   document.writeln( " Password is : " + pas);
+
+// }
+
+
+//================================================
+// task-2
+
+
+// function myFunction() {
+//   var dots = document.getElementById("dots");
+//   var moreText = document.getElementById("more");
+//   var btnText = document.getElementById("myBtn");
+
+//   if (dots.style.display === "none") {
+//     dots.style.display = "inline";
+//     btnText.innerHTML = "Read more"; 
+//     moreText.style.display = "none";
+//   } else {
+//     dots.style.display = "none";
+//     btnText.innerHTML = "Read less"; 
+//     moreText.style.display = "inline";
+//   }
+// }
+
 
 
